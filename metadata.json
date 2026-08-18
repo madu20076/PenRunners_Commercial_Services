@@ -1,0 +1,6 @@
+{
+  "name": "PenRunners Commercial Services",
+  "description": "One Call. Multiple Property Solutions. Commercial property cleaning, pressure washing, post-construction cleanup, and facility services in Greater Houston.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
