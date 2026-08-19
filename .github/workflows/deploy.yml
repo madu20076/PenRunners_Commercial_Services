@@ -33,7 +33,7 @@ jobs:
         run: npm install
 
       - name: Build Application with Vite
-        run: npm run build
+        run: npm run build -- --base=/PenRunners_Commercial_Services/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
