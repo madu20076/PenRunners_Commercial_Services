@@ -11,7 +11,7 @@ export interface ServiceItem {
   cardImage: string;
   heroImage: string;
   altText: string;
-  image: string; // backwards compatibility
+  image: string;
   metaTitle: string;
   metaDescription: string;
 }
@@ -78,10 +78,10 @@ export const servicesData: ServiceItem[] = [
       "Healthcare & Educational Renovations"
     ],
     iconName: "HardHat",
-    cardImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800",
-    heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1600",
-    altText: "Pristine commercial interior handover following post-construction detailing and cleanup",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200",
+    cardImage: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80&w=800",
+    heroImage: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80&w=1600",
+    altText: "Post-construction cleaning crew wiping down interior surfaces and eliminating drywall dust before commercial turnover",
+    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80&w=1200",
     metaTitle: "Post-Construction Cleaning Houston | Final Clean for General Contractors",
     metaDescription: "Reliable post-construction cleaning in Houston. Phased rough, final & punch-list cleaning for commercial GCs, retail build-outs & developers."
   },
@@ -112,10 +112,10 @@ export const servicesData: ServiceItem[] = [
       "Schools, Daycares & Religious Facilities"
     ],
     iconName: "Building2",
-    cardImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800",
-    heroImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1600",
-    altText: "Spotless commercial corporate office space maintained by commercial janitorial cleaning services",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=1200",
+    cardImage: "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&q=80&w=800",
+    heroImage: "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&q=80&w=1600",
+    altText: "Janitorial cleaning technician actively wiping and sanitizing commercial office workstations with cleaning spray",
+    image: "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&q=80&w=1200",
     metaTitle: "Commercial Janitorial Cleaning Houston | Office & Facility Cleaning",
     metaDescription: "Reliable commercial janitorial cleaning in Houston, Sugar Land, & Katy. Scheduled office cleaning, sanitation, and multi-tenant facility care."
   },
@@ -146,10 +146,10 @@ export const servicesData: ServiceItem[] = [
       "Retail Centers & Lifestyle Destinations"
     ],
     iconName: "Building",
-    cardImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=800",
-    heroImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=1600",
-    altText: "Clean modern commercial building facade and exterior architecture maintained with exterior building washing",
-    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=1200",
+    cardImage: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800",
+    heroImage: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1600",
+    altText: "Exterior building maintenance technician performing exterior facade cleaning on commercial property",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1200",
     metaTitle: "Exterior Building Cleaning Houston | Commercial Facade Soft Washing",
     metaDescription: "Commercial exterior building cleaning and soft washing in Houston. Safe cleaning for stucco, EIFS, brick, and metal panels."
   },
@@ -180,10 +180,10 @@ export const servicesData: ServiceItem[] = [
       "Municipal & Institutional Facilities"
     ],
     iconName: "Footprints",
-    cardImage: "https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?auto=format&fit=crop&q=80&w=800",
-    heroImage: "https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?auto=format&fit=crop&q=80&w=1600",
-    altText: "Clean commercial concrete plaza, sidewalk walkway, and commercial building entrance",
-    image: "https://images.unsplash.com/photo-1517646287270-a5a9ca602e5c?auto=format&fit=crop&q=80&w=1200",
+    cardImage: "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=800",
+    heroImage: "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=1600",
+    altText: "Commercial surface cleaner performing high-pressure washing on concrete sidewalk and entryway plaza",
+    image: "https://images.unsplash.com/photo-1585421514738-01798e348b17?auto=format&fit=crop&q=80&w=1200",
     metaTitle: "Commercial Concrete & Sidewalk Cleaning Houston | PenRunners",
     metaDescription: "Professional concrete, sidewalk, and entryway surface washing in Houston. Rotary scrubbing, gum removal, and stain mitigation."
   },
@@ -214,10 +214,10 @@ export const servicesData: ServiceItem[] = [
       "Restaurants & Cafes"
     ],
     iconName: "Layers",
-    cardImage: "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&q=80&w=800",
-    heroImage: "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&q=80&w=1600",
-    altText: "Commercial window cleaning technician washing glass facade on modern corporate property",
-    image: "https://images.unsplash.com/photo-1508873696983-2df5293cb325?auto=format&fit=crop&q=80&w=1200",
+    cardImage: "https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&q=80&w=800",
+    heroImage: "https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&q=80&w=1600",
+    altText: "Professional commercial window cleaner wiping and cleaning large commercial glass panels",
+    image: "https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&q=80&w=1200",
     metaTitle: "Commercial Window Cleaning Houston | Storefront & Office Glass",
     metaDescription: "Professional commercial window cleaning in Houston. Interior & exterior pure-water window washing for offices, retail, and commercial properties."
   },
@@ -248,10 +248,10 @@ export const servicesData: ServiceItem[] = [
       "Event Centers & Stadium Parking"
     ],
     iconName: "Truck",
-    cardImage: "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?auto=format&fit=crop&q=80&w=800",
-    heroImage: "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?auto=format&fit=crop&q=80&w=1600",
-    altText: "Clean, well-maintained commercial parking lot and business center exterior",
-    image: "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?auto=format&fit=crop&q=80&w=1200",
+    cardImage: "https://images.unsplash.com/photo-1573348722427-f1d6819fdf98?auto=format&fit=crop&q=80&w=800",
+    heroImage: "https://images.unsplash.com/photo-1573348722427-f1d6819fdf98?auto=format&fit=crop&q=80&w=1600",
+    altText: "Commercial parking lot and shopping center drive aisles swept clean of litter and debris",
+    image: "https://images.unsplash.com/photo-1573348722427-f1d6819fdf98?auto=format&fit=crop&q=80&w=1200",
     metaTitle: "Parking Lot Cleaning & Sweeping Houston | Commercial Grounds Care",
     metaDescription: "Reliable parking lot sweeping, garage scrubbing, and litter portering in Houston, Katy, Sugar Land, and Fort Bend County."
   },
@@ -282,10 +282,10 @@ export const servicesData: ServiceItem[] = [
       "Storage Facility Operators"
     ],
     iconName: "Trash2",
-    cardImage: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800",
-    heroImage: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1600",
-    altText: "Commercial warehouse floor and storage bays cleared and broom-swept after property cleanout",
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1200",
+    cardImage: "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&q=80&w=800",
+    heroImage: "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&q=80&w=1600",
+    altText: "Commercial property cleanout and junk removal hauling abandoned debris from commercial property",
+    image: "https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&q=80&w=1200",
     metaTitle: "Commercial Property Cleanouts Houston | Warehouse & Office Cleanout",
     metaDescription: "Fast commercial property cleanouts and tenant trash-outs in Houston. Clear office spaces, retail suites, and warehouses for immediate re-leasing."
   },
@@ -316,10 +316,10 @@ export const servicesData: ServiceItem[] = [
       "Senior Living & Assisted Living Facilities"
     ],
     iconName: "Home",
-    cardImage: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=800",
-    heroImage: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=1600",
-    altText: "Sparkling clean modern apartment interior and kitchen fixtures prepared for tenant turnover",
-    image: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=1200",
+    cardImage: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&q=80&w=800",
+    heroImage: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&q=80&w=1600",
+    altText: "Apartment turnover cleaning crew deep cleaning and vacuuming vacant rental unit for next tenant move-in",
+    image: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&q=80&w=1200",
     metaTitle: "Apartment Turnover Cleaning Houston | Multifamily Unit Turn Services",
     metaDescription: "High-quality apartment turnover cleaning in Houston for property managers. Fast unit turn cleans, deep kitchen/bath scrubbing, and move-in prep."
   },
@@ -350,10 +350,10 @@ export const servicesData: ServiceItem[] = [
       "Convention Centers & High-Traffic Venues"
     ],
     iconName: "UserCheck",
-    cardImage: "https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&q=80&w=800",
-    heroImage: "https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&q=80&w=1600",
-    altText: "Impeccably maintained commercial building lobby and front facility entrance supported by day porter services",
-    image: "https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&q=80&w=1200",
+    cardImage: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&q=80&w=800",
+    heroImage: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&q=80&w=1600",
+    altText: "Uniformed day porter actively maintaining high-traffic commercial building lobby and entrance during business hours",
+    image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&q=80&w=1200",
     metaTitle: "Day Porter Services Houston | On-Site Commercial Facility Support",
     metaDescription: "Professional day porter services in Houston. Uniformed daytime facility cleaners for office buildings, retail centers, and commercial campuses."
   },
@@ -384,10 +384,10 @@ export const servicesData: ServiceItem[] = [
       "Churches & Assembly Halls"
     ],
     iconName: "Sparkles",
-    cardImage: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800",
-    heroImage: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1600",
-    altText: "Polished high-gloss commercial flooring and deep-cleaned commercial tiles",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1200",
+    cardImage: "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=800",
+    heroImage: "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=1600",
+    altText: "Commercial floor maintenance technician operating floor scrubbing and deep cleaning equipment on commercial facility flooring",
+    image: "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&q=80&w=1200",
     metaTitle: "Commercial Floor & Carpet Cleaning Houston | VCT Wax & Tile Care",
     metaDescription: "Commercial carpet cleaning, VCT strip & wax, and tile & grout restoration in Houston, Sugar Land, Katy, and Harris County."
   },
@@ -420,7 +420,7 @@ export const servicesData: ServiceItem[] = [
     iconName: "Trees",
     cardImage: "https://images.unsplash.com/photo-1592595896551-12b371d546d5?auto=format&fit=crop&q=80&w=800",
     heroImage: "https://images.unsplash.com/photo-1592595896551-12b371d546d5?auto=format&fit=crop&q=80&w=1600",
-    altText: "Immaculate commercial property grounds, landscaping, and exterior perimeter care",
+    altText: "Commercial grounds maintenance crew performing landscaping, edging, and exterior property upkeep around office park",
     image: "https://images.unsplash.com/photo-1592595896551-12b371d546d5?auto=format&fit=crop&q=80&w=1200",
     metaTitle: "Grounds & Exterior Property Maintenance Houston | PenRunners",
     metaDescription: "Exterior grounds maintenance, litter patrol, drain clearing, and property upkeep for commercial real estate in Greater Houston."
